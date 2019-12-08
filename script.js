@@ -2,6 +2,12 @@
 
 var Dark = document.createElement("button");
 var Light = document.createElement("button");
+
+// Append the buttons
+document.body.appendChild(Dark);
+document.body.appendChild(Light);
+//by khalby786
+
 //event Listeners
 Dark.addEventListener("click", function(){
   __a("LIGHT")
